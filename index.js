@@ -1,5 +1,5 @@
 
- var ele =document.getElementsByClassName("container");
+ var ele =document.getElementByClassName("container");
 console.log(ele.offsetWidth);
 console.log(ele.scrollWidth);
   if ((ele.offsetWidth < ele.scrollWidth) || (ele.offsetHeight < ele.scrollHeight)) {
